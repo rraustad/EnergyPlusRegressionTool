@@ -4,6 +4,9 @@
 [![Build Status](https://travis-ci.org/NREL/EnergyPlusRegressionTool.svg?branch=master)](https://travis-ci.org/NREL/EnergyPlusRegressionTool)
 [![Coverage Status](https://coveralls.io/repos/github/NREL/EnergyPlusRegressionTool/badge.svg?branch=master)](https://coveralls.io/github/NREL/EnergyPlusRegressionTool?branch=master)
 
+## Modifications for Trane
+Changed bucket name in epregressions/diffs/ci_compare_script.py
+
 ## Overview
 
 This library is provides tools for performing regressions between EnergyPlus builds.
