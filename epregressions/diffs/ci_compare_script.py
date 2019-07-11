@@ -169,7 +169,7 @@ def main_function(file_name, base_dir, mod_dir, base_sha, mod_sha, make_public, 
         # file_data = open('/path/to/s3/creds.txt').read().split('\n')
         # conn = boto.connect_s3(file_data[0], file_data[1])
         conn = boto.connect_s3()
-        bucket_name = 'energyplus'
+        bucket_name = 'energyplus-fsec'
         bucket = conn.get_bucket(bucket_name)
 
         potential_files = get_diff_files(base_dir)
